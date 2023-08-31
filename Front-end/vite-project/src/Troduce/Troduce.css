@@ -1,0 +1,111 @@
+.wrapper-Content {
+  display: flex;
+  align-items: center;
+  background-image: url(https://static.wattpad.com/img/landing/topRightPortal.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto 100%;
+  padding: 100px 0 40px;
+  justify-content: space-evenly;
+}
+
+.wrapper-Content-img img {
+  width: 80%;
+}
+
+.wrapper-Content-introduce h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+  color: #ff6122;
+}
+
+.wrapper-Content-introduce h3 {
+  font-size: 25px;
+  line-height: normal;
+  font-weight: 400;
+  color: #222;
+}
+
+.wrapper-Content-introduce h4 {
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 400;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.wrapper-Content-button {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.wrapper-Content-button button {
+  border: none;
+  padding: 10px 30px;
+  border-radius: 7px;
+  background-color: #ff6122;
+  color: white;
+  cursor: pointer;
+}
+
+.wrapper-Content-button button:hover {
+  background-color: #bb4414;
+}
+
+.wrapper-Content-2-row {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.wrapper-Content-introduce {
+  padding: 0 25px;
+}
+
+.wrapper-Content-2 > h3 {
+  text-align: center;
+}
+
+.wrapper-Content-2 > p {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.wrapper-Content-2-row-1 {
+  display: flex;
+  align-items: center;
+  height: 140px;
+  justify-content: space-around;
+}
+
+.wrapper-Content-2-row-1 h1 {
+  font-size: 100px;
+  line-height: normal;
+  margin-right: 27px;
+  font-weight: 700;
+}
+.title {
+  padding: 20px 40px;
+}
+
+.wrapper-Content-2 > h3 {
+  font-size: 30px;
+  color: #222;
+}
+
+.startBubble {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 105px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.startBubble-item {
+  background-image: url(https://static.wattpad.com/img/landing/portalbg3.svg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+}

@@ -1,0 +1,101 @@
+
+
+.Login-Content {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Login-form {
+  max-width: 400px;
+
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Login-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Login-form form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Login-form .form-group {
+  margin-bottom: 20px;
+}
+
+.Login-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.Login-form .form-group input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 94%;
+}
+
+.Login-form button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 30px;
+}
+
+.Login-form button[type="submit"]:hover {
+  background-color: #0e101383;
+}
+
+
+
+@media (max-width: 768px) {
+  .Login {
+    padding: 20px;
+  }
+
+  .Login-Content {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .Login-Content img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .Login-form {
+    max-width: 100%;
+  }
+
+  .Login-form form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .Login-Content {
+    gap: 10px;
+  }
+
+  .Login-form {
+    padding: 20px;
+  }
+}

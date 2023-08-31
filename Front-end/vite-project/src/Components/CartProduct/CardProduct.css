@@ -1,0 +1,77 @@
+.wrapper-cart-product h2 {
+  text-align: center;
+  color: orangered;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 10px 10px;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+td img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+td svg {
+  cursor: pointer;
+}
+
+td input[type="number"] {
+  width: 40px;
+}
+
+.quantity {
+  /* display: flex; */
+  align-items: center;
+}
+
+.quantity input {
+  width: 20px;
+}
+
+tbody td {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.432);
+}
+
+.pay-cart {
+  text-align: right;
+  padding: 20px 30px;
+}
+
+.pay-cart div {
+  padding: 10px 0;
+}
+
+.pay-cart button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+
+  background-color: white;
+  color: orangered;
+  border: 1px solid orangered;
+}
+
+.pay-cart button:hover {
+  color: white;
+  background-color: orangered;
+  cursor: pointer;
+}

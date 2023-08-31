@@ -1,0 +1,75 @@
+.wrapper-navbar-item li {
+  list-style-type: none;
+  color: white;
+  padding: 30px 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 17px;
+  /* width: 100%; */
+}
+
+.wrapper-navbar-item li:hover {
+  color: #f9c300;
+  cursor: pointer;
+}
+
+.wrapper-navbar {
+  background-color: #1367a2;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  align-content: space-between;
+  user-select: none;
+}
+
+.wrapper-navbar h1 {
+  color: white;
+  text-align: center;
+}
+
+.Navbar-Logout {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+  justify-content: space-evenly;
+}
+
+.Navbar-Logout .logout:hover {
+  color: #ff4d82;
+}
+
+.Navbar-Logout .iconLogout:hover {
+  color: #ff4d82;
+}
+
+.logout {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.iconLogout {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.wrapper-navbar-item div h2 {
+  color: white;
+  text-align: left;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.wrapper-navbar-item li a {
+  text-decoration: none;
+  color: white;
+}
+
+.wrapper-navbar-item li a:hover {
+  color: #f9c300;
+}
