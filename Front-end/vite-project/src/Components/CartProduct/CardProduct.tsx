@@ -92,8 +92,7 @@ const CardProduct = () => {
     const dateResponse = await CartAPI.getToCart(id);
     // console.log("a hoàng 3đ", dateResponse);
     const dataOrder = dateResponse.data;
-    console.log("hoàng bê đê", dataOrder);
-    console.log(getTotalPrice());
+
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     await dataOrder?.map((item: any) => {

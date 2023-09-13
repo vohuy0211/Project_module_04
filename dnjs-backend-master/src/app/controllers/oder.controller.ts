@@ -26,7 +26,10 @@ export class OderController {
     try {
       const dataOder = await Oders.findAll();
       res.status(200).json({ Oders: dataOder });
-    } catch (error) { }
+    } catch (error) {
+      console.log(error);
+
+    }
   }
 
   static async getOderById(req: Request, res: Response) {

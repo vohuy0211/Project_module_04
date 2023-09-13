@@ -2,7 +2,7 @@ export const dev = {
   db: {
     HOST: 'localhost',
     USER: 'root',
-    PASSWORD: '02112003Huy',
+    PASSWORD: 'huyvo02112003',
     DATABASE: 'Project_04',
     dialect: 'mysql',
   },

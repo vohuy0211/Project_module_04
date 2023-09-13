@@ -13,11 +13,6 @@ export class HistoryController {
       const { price, oderDate, oders_id, books_id, quantity, status } = req.body;
       console.log(req.body);
       const result = await History.create({ price, oderDate, oders_id, books_id, quantity, status });
-      // const book = await Book.findByPk(books_id);
-      // if (book) {
-      //   const updateQuantity = book.quantity - quantity;
-      //   await Book.update({ quantity: updateQuantity });
-      // }
       res.status(200).json({ data: result });
     } catch (error) {
       console.log(error);
